@@ -7,7 +7,7 @@
     "build": "next build",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start"
@@ -44,7 +44,10 @@
     "prettier-plugin-tailwindcss": "^0.5.7",
     "prisma": "^5.6.0",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "sst": "^2.36.7",
+    "aws-cdk-lib": "2.110.1",
+    "constructs": "10.3.0"
   },
   "ct3aMetadata": {
     "initVersion": "7.24.0"
